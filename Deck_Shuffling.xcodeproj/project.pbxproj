@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F1E58011D1AF835000E6D5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E58001D1AF835000E6D5A /* main.m */; };
+		6F1E58041D1AF835000E6D5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E58031D1AF835000E6D5A /* AppDelegate.m */; };
+		6F1E58071D1AF835000E6D5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E58061D1AF835000E6D5A /* ViewController.m */; };
+		6F1E580A1D1AF835000E6D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F1E58081D1AF835000E6D5A /* Main.storyboard */; };
+		6F1E580C1D1AF835000E6D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1E580B1D1AF835000E6D5A /* Assets.xcassets */; };
+		6F1E580F1D1AF835000E6D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F1E580D1D1AF835000E6D5A /* LaunchScreen.storyboard */; };
+		6F1E581A1D1AF835000E6D5A /* Deck_ShufflingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E58191D1AF835000E6D5A /* Deck_ShufflingTests.m */; };
+		6F1E58251D1AF835000E6D5A /* Deck_ShufflingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E58241D1AF835000E6D5A /* Deck_ShufflingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F1E58161D1AF835000E6D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1E57F41D1AF835000E6D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F1E57FB1D1AF835000E6D5A;
+			remoteInfo = Deck_Shuffling;
+		};
+		6F1E58211D1AF835000E6D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1E57F41D1AF835000E6D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F1E57FB1D1AF835000E6D5A;
+			remoteInfo = Deck_Shuffling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F1E57FC1D1AF835000E6D5A /* Deck_Shuffling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deck_Shuffling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1E58001D1AF835000E6D5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F1E58021D1AF835000E6D5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F1E58031D1AF835000E6D5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F1E58051D1AF835000E6D5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F1E58061D1AF835000E6D5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F1E58091D1AF835000E6D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F1E580B1D1AF835000E6D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F1E580E1D1AF835000E6D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F1E58101D1AF835000E6D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F1E58151D1AF835000E6D5A /* Deck_ShufflingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Deck_ShufflingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1E58191D1AF835000E6D5A /* Deck_ShufflingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck_ShufflingTests.m; sourceTree = "<group>"; };
+		6F1E581B1D1AF835000E6D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F1E58201D1AF835000E6D5A /* Deck_ShufflingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Deck_ShufflingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1E58241D1AF835000E6D5A /* Deck_ShufflingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck_ShufflingUITests.m; sourceTree = "<group>"; };
+		6F1E58261D1AF835000E6D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F1E57F91D1AF835000E6D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1E58121D1AF835000E6D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1E581D1D1AF835000E6D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F1E57F31D1AF835000E6D5A = {
+			isa = PBXGroup;
+			children = (
+				6F1E57FE1D1AF835000E6D5A /* Deck_Shuffling */,
+				6F1E58181D1AF835000E6D5A /* Deck_ShufflingTests */,
+				6F1E58231D1AF835000E6D5A /* Deck_ShufflingUITests */,
+				6F1E57FD1D1AF835000E6D5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F1E57FD1D1AF835000E6D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F1E57FC1D1AF835000E6D5A /* Deck_Shuffling.app */,
+				6F1E58151D1AF835000E6D5A /* Deck_ShufflingTests.xctest */,
+				6F1E58201D1AF835000E6D5A /* Deck_ShufflingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F1E57FE1D1AF835000E6D5A /* Deck_Shuffling */ = {
+			isa = PBXGroup;
+			children = (
+				6F1E58021D1AF835000E6D5A /* AppDelegate.h */,
+				6F1E58031D1AF835000E6D5A /* AppDelegate.m */,
+				6F1E58051D1AF835000E6D5A /* ViewController.h */,
+				6F1E58061D1AF835000E6D5A /* ViewController.m */,
+				6F1E58081D1AF835000E6D5A /* Main.storyboard */,
+				6F1E580B1D1AF835000E6D5A /* Assets.xcassets */,
+				6F1E580D1D1AF835000E6D5A /* LaunchScreen.storyboard */,
+				6F1E58101D1AF835000E6D5A /* Info.plist */,
+				6F1E57FF1D1AF835000E6D5A /* Supporting Files */,
+			);
+			path = Deck_Shuffling;
+			sourceTree = "<group>";
+		};
+		6F1E57FF1D1AF835000E6D5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F1E58001D1AF835000E6D5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F1E58181D1AF835000E6D5A /* Deck_ShufflingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F1E58191D1AF835000E6D5A /* Deck_ShufflingTests.m */,
+				6F1E581B1D1AF835000E6D5A /* Info.plist */,
+			);
+			path = Deck_ShufflingTests;
+			sourceTree = "<group>";
+		};
+		6F1E58231D1AF835000E6D5A /* Deck_ShufflingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F1E58241D1AF835000E6D5A /* Deck_ShufflingUITests.m */,
+				6F1E58261D1AF835000E6D5A /* Info.plist */,
+			);
+			path = Deck_ShufflingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F1E57FB1D1AF835000E6D5A /* Deck_Shuffling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1E58291D1AF835000E6D5A /* Build configuration list for PBXNativeTarget "Deck_Shuffling" */;
+			buildPhases = (
+				6F1E57F81D1AF835000E6D5A /* Sources */,
+				6F1E57F91D1AF835000E6D5A /* Frameworks */,
+				6F1E57FA1D1AF835000E6D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Deck_Shuffling;
+			productName = Deck_Shuffling;
+			productReference = 6F1E57FC1D1AF835000E6D5A /* Deck_Shuffling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F1E58141D1AF835000E6D5A /* Deck_ShufflingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1E582C1D1AF835000E6D5A /* Build configuration list for PBXNativeTarget "Deck_ShufflingTests" */;
+			buildPhases = (
+				6F1E58111D1AF835000E6D5A /* Sources */,
+				6F1E58121D1AF835000E6D5A /* Frameworks */,
+				6F1E58131D1AF835000E6D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F1E58171D1AF835000E6D5A /* PBXTargetDependency */,
+			);
+			name = Deck_ShufflingTests;
+			productName = Deck_ShufflingTests;
+			productReference = 6F1E58151D1AF835000E6D5A /* Deck_ShufflingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F1E581F1D1AF835000E6D5A /* Deck_ShufflingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1E582F1D1AF835000E6D5A /* Build configuration list for PBXNativeTarget "Deck_ShufflingUITests" */;
+			buildPhases = (
+				6F1E581C1D1AF835000E6D5A /* Sources */,
+				6F1E581D1D1AF835000E6D5A /* Frameworks */,
+				6F1E581E1D1AF835000E6D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F1E58221D1AF835000E6D5A /* PBXTargetDependency */,
+			);
+			name = Deck_ShufflingUITests;
+			productName = Deck_ShufflingUITests;
+			productReference = 6F1E58201D1AF835000E6D5A /* Deck_ShufflingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F1E57F41D1AF835000E6D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hari Palempati";
+				TargetAttributes = {
+					6F1E57FB1D1AF835000E6D5A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6F1E58141D1AF835000E6D5A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6F1E57FB1D1AF835000E6D5A;
+					};
+					6F1E581F1D1AF835000E6D5A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6F1E57FB1D1AF835000E6D5A;
+					};
+				};
+			};
+			buildConfigurationList = 6F1E57F71D1AF835000E6D5A /* Build configuration list for PBXProject "Deck_Shuffling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F1E57F31D1AF835000E6D5A;
+			productRefGroup = 6F1E57FD1D1AF835000E6D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F1E57FB1D1AF835000E6D5A /* Deck_Shuffling */,
+				6F1E58141D1AF835000E6D5A /* Deck_ShufflingTests */,
+				6F1E581F1D1AF835000E6D5A /* Deck_ShufflingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F1E57FA1D1AF835000E6D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1E580F1D1AF835000E6D5A /* LaunchScreen.storyboard in Resources */,
+				6F1E580C1D1AF835000E6D5A /* Assets.xcassets in Resources */,
+				6F1E580A1D1AF835000E6D5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1E58131D1AF835000E6D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1E581E1D1AF835000E6D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F1E57F81D1AF835000E6D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1E58071D1AF835000E6D5A /* ViewController.m in Sources */,
+				6F1E58041D1AF835000E6D5A /* AppDelegate.m in Sources */,
+				6F1E58011D1AF835000E6D5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1E58111D1AF835000E6D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1E581A1D1AF835000E6D5A /* Deck_ShufflingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1E581C1D1AF835000E6D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1E58251D1AF835000E6D5A /* Deck_ShufflingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F1E58171D1AF835000E6D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F1E57FB1D1AF835000E6D5A /* Deck_Shuffling */;
+			targetProxy = 6F1E58161D1AF835000E6D5A /* PBXContainerItemProxy */;
+		};
+		6F1E58221D1AF835000E6D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F1E57FB1D1AF835000E6D5A /* Deck_Shuffling */;
+			targetProxy = 6F1E58211D1AF835000E6D5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F1E58081D1AF835000E6D5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1E58091D1AF835000E6D5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F1E580D1D1AF835000E6D5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1E580E1D1AF835000E6D5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F1E58271D1AF835000E6D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F1E58281D1AF835000E6D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F1E582A1D1AF835000E6D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Deck_Shuffling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hari.Deck-Shuffling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F1E582B1D1AF835000E6D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Deck_Shuffling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hari.Deck-Shuffling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F1E582D1D1AF835000E6D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Deck_ShufflingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hari.Deck-ShufflingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deck_Shuffling.app/Deck_Shuffling";
+			};
+			name = Debug;
+		};
+		6F1E582E1D1AF835000E6D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Deck_ShufflingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hari.Deck-ShufflingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deck_Shuffling.app/Deck_Shuffling";
+			};
+			name = Release;
+		};
+		6F1E58301D1AF835000E6D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Deck_ShufflingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hari.Deck-ShufflingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Deck_Shuffling;
+			};
+			name = Debug;
+		};
+		6F1E58311D1AF835000E6D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Deck_ShufflingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hari.Deck-ShufflingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Deck_Shuffling;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F1E57F71D1AF835000E6D5A /* Build configuration list for PBXProject "Deck_Shuffling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1E58271D1AF835000E6D5A /* Debug */,
+				6F1E58281D1AF835000E6D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F1E58291D1AF835000E6D5A /* Build configuration list for PBXNativeTarget "Deck_Shuffling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1E582A1D1AF835000E6D5A /* Debug */,
+				6F1E582B1D1AF835000E6D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F1E582C1D1AF835000E6D5A /* Build configuration list for PBXNativeTarget "Deck_ShufflingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1E582D1D1AF835000E6D5A /* Debug */,
+				6F1E582E1D1AF835000E6D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F1E582F1D1AF835000E6D5A /* Build configuration list for PBXNativeTarget "Deck_ShufflingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1E58301D1AF835000E6D5A /* Debug */,
+				6F1E58311D1AF835000E6D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F1E57F41D1AF835000E6D5A /* Project object */;
+}
