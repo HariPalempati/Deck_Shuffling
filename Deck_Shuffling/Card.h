@@ -1,5 +1,5 @@
 //
-//  Deck.h
+//  Card.h
 //  Deck_Shuffling
 //
 //  Created by Hari Palempati on 6/22/16.
@@ -7,11 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Card.h"
 
-@interface Deck : NSObject
-
-@property (nonatomic, copy) NSArray<Card *> *dealHistory;
-@property (nonatomic, copy) NSArray<Card *> *cards;
+@interface Card : NSObject
 
 @end

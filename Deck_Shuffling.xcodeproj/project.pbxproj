@@ -16,6 +16,7 @@
 		6F1E581A1D1AF835000E6D5A /* Deck_ShufflingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E58191D1AF835000E6D5A /* Deck_ShufflingTests.m */; };
 		6F1E58251D1AF835000E6D5A /* Deck_ShufflingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E58241D1AF835000E6D5A /* Deck_ShufflingUITests.m */; };
 		6F1E58341D1AFBD7000E6D5A /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E58331D1AFBD7000E6D5A /* Deck.m */; };
+		6F1E58371D1B6CBF000E6D5A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E58361D1B6CBF000E6D5A /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		6F1E58261D1AF835000E6D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F1E58321D1AFBD7000E6D5A /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		6F1E58331D1AFBD7000E6D5A /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		6F1E58351D1B6CBF000E6D5A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		6F1E58361D1B6CBF000E6D5A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				6F1E57FF1D1AF835000E6D5A /* Supporting Files */,
 				6F1E58321D1AFBD7000E6D5A /* Deck.h */,
 				6F1E58331D1AFBD7000E6D5A /* Deck.m */,
+				6F1E58351D1B6CBF000E6D5A /* Card.h */,
+				6F1E58361D1B6CBF000E6D5A /* Card.m */,
 			);
 			path = Deck_Shuffling;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F1E58371D1B6CBF000E6D5A /* Card.m in Sources */,
 				6F1E58341D1AFBD7000E6D5A /* Deck.m in Sources */,
 				6F1E58071D1AF835000E6D5A /* ViewController.m in Sources */,
 				6F1E58041D1AF835000E6D5A /* AppDelegate.m in Sources */,
